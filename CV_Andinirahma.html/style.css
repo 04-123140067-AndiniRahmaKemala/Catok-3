@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color: rgb(236, 225, 225)
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 140, 108);
+    margin-bottom: 20px;
+}
+nav a {
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: white
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(217, 150, 150)
+    border-radius: 17px;
+    box-shadow: 7px 9px 20px -1px rgba(0,0,0,0.65);
+   
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.container .Biodata Diri{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 30px;
+  text-align: left;
+}
+
+/* Tabel */
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.education-table th,
+.education-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.education-table th {
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+.education-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+ul  {
+    padding-left: 20px;]
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ol {
+    list-style: square;
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 5px;
+}
